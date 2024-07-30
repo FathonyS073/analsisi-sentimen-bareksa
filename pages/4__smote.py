@@ -29,7 +29,7 @@ plt.ylabel('Jumlah')
 
 for i in ax.patches:
     ax.text(i.get_x() + 0.2, i.get_height() + 0.2, str(i.get_height()), fontsize=10, color='black')
-st.set_option('deprecation.showPyplotGlobalUse', False)
+# st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
 st.pyplot()
@@ -44,7 +44,7 @@ plt.ylabel('Jumlah')
 
 for i in ax.patches:
     ax.text(i.get_x() + 0.2, i.get_height() + 0.2, str(i.get_height()), fontsize=10, color='black')
-st.set_option('deprecation.showPyplotGlobalUse', False)
+# st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
 st.pyplot()

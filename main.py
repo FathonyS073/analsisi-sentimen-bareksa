@@ -1,6 +1,6 @@
 # inisialisasi library
 import streamlit as st
-from st_pages import Page, show_pages, _hide_pages
+# from st_pages import Page, show_pages, _hide_pages
 import pandas as pd
 
 
@@ -13,17 +13,17 @@ st.title('Website Analisis Sentimen Ulasan Aplikasi Bareksa dengan Pendekatan Le
 
 
 # menus 
-show_pages(
-    [
-        Page("main.py", "Home", "🏠"),
-        Page("pages/preproses.py", "Pre-Proses Data", "♻"),
-        Page("pages/FeatureExtraction.py", "Feature Extraction", "📶"),
-        Page("pages/WordCloud.py", "Word Cloud", "🧮"),
-        Page("pages/smote.py", "SMOTE Data", "🔄"),
-        Page("pages/klasifikasisvm.py", "Performa Kinerja Model", "🔬"),
-        Page("pages/ujidata.py", "Uji Coba", "🔂"),
-    ]
-)
+# show_pages(
+#     [
+#         Page("main.py", "Home", "🏠"),
+#         Page("pages/preproses.py", "Pre-Proses Data", "♻"),
+#         Page("pages/FeatureExtraction.py", "Feature Extraction", "📶"),
+#         Page("pages/WordCloud.py", "Word Cloud", "🧮"),
+#         Page("pages/smote.py", "SMOTE Data", "🔄"),
+#         Page("pages/klasifikasisvm.py", "Performa Kinerja Model", "🔬"),
+#         Page("pages/ujidata.py", "Uji Coba", "🔂"),
+#     ]
+# )
 
 #penjelasan paru-paru
 
